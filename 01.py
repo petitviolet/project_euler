@@ -3,7 +3,7 @@
 def e1(num):
     sum = 0
     for i in xrange(num):
-        if i%3==0 or i%5==0:
+        if 0 in (i%3, i%5):
             sum += i
     return sum
 
